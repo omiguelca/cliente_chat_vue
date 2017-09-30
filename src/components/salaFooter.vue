@@ -40,7 +40,7 @@ export default {
       }
       var objDiv = document.getElementsByClassName("chat-main");
       //var objDiv = this.$el.querySelector(".chat-main");
-      objDiv[0].scrollTop = objDiv[0].scrollHeight;
+      objDiv[0].scrollTop = objDiv[0].scrollHeight-30;
       this.mensaje='';
     }
   }

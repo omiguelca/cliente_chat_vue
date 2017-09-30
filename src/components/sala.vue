@@ -31,7 +31,6 @@ export default {
 </script>
 
 <style scoped>
-
 .chat-main{
   height: calc(100% - 100px);
   width: 100%;
